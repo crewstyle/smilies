@@ -1,0 +1,27 @@
+{
+  "name": "smilies",
+  "version": "1.0.0",
+  "homepage": "https://github.com/crewstyle/smilies",
+  "authors": [
+    "Achraf Chouk <achrafchouk@gmail.com>"
+  ],
+  "description": "A text transform into smiley jQuery plugin",
+  "main": ["dist/smilies.min.js"],
+  "keywords": [
+    "smiley",
+    "text",
+    "transform",
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
