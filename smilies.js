@@ -56,8 +56,6 @@
     Smilies.prototype.$smiles = null;
 
     Smilies.prototype.insertSmile = function (code){
-        e.preventDefault();
-
         //check code
         if ('' == code) {
             return;
