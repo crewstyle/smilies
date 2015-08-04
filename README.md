@@ -28,7 +28,7 @@ bower install --save smilies
 
 ## 3) How to use it
 
-It's pretty simple to user the *Smilies* jQuery package. It's a two-steps install.  
+It's pretty simple to use the *Smilies* jQuery package. It's a two-steps install.  
 In your HTML:
 
 ````html
