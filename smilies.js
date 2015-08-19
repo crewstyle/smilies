@@ -57,12 +57,13 @@
 
     Smilies.prototype.insertSmile = function (code){
         //check code
-        if ('' == code) {
+        if ('' === code) {
             return;
         }
 
         var _s = this,
-            _code = ' ' + code + ' ';
+            _code = ' ' + code + ' ',
+            _value = '';
 
         //set selected text
         if (document.selection) {
@@ -72,14 +73,16 @@
             //get the focus back to the textarea
             _s.$el.focus();
         }
-        else if (_s.$el[0].selectionStart || 0 == _s.$el[0].selectionStart) {
+        else if (_s.$el[0].selectionStart || 0 === _s.$el[0].selectionStart) {
             var startPos = _s.$el[0].selectionStart,
                 endPos = _s.$el[0].selectionEnd,
                 cursorPos = startPos;
 
+            //get the element value
+            _value = _s.$el.val();
+
             //get the new textarea value
-            var _value = _s.$el.val(),
-                _newv = _value.substring(0, startPos);
+            var _newv = _value.substring(0, startPos);
 
             //update new value
             _newv += _code + _value.substring(endPos, _value.length);
@@ -99,7 +102,7 @@
         }
         else {
             //define the new value
-            var _value = _s.$el.val() + _code;
+            _value = _s.$el.val() + _code;
             _s.$el.val('' + _value);
 
             //get the focus back to the textarea
