@@ -6,7 +6,9 @@
     "Achraf Chouk <achrafchouk@gmail.com>"
   ],
   "description": "A text transform into smiley jQuery plugin",
-  "main": ["dist/smilies.min.js"],
+  "main": [
+    "dist/smilies.min.js"
+  ],
   "keywords": [
     "smiley",
     "text",
