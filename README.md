@@ -1,4 +1,4 @@
-# Smilies
+# Smilies [![Build Status](https://travis-ci.org/crewstyle/smilies.svg?branch=master)](https://travis-ci.org/crewstyle/smilies)
 
 _a text transform into smiley jQuery plugin_
 
