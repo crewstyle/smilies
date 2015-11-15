@@ -1,39 +1,30 @@
-# Smilies [![Build Status](https://travis-ci.org/crewstyle/smilies.svg?branch=master)](https://travis-ci.org/crewstyle/smilies)
+# Smylies [![Build Status](https://travis-ci.org/crewstyle/smylies.svg?branch=master)](https://travis-ci.org/crewstyle/smylies)
 
-_a text transform into smiley jQuery plugin_
-
-
-## Summary
-
-+ [1) What is this all about?](#1-what-is-this-all-about)
-+ [2) Install](#2-install)
-+ [3) How to use it](#3-how-to-use-it)
-+ [4) That's all folkes!](#4-thats-all-folkes)
-+ [5) Authors and Copyright](#5-authors-and-copyright)
+_a text transform into smiley very light jQuery plugin_  
+[![npm version](https://badge.fury.io/js/yohoho.smylies.svg)](https://badge.fury.io/js/yohoho.smylies)
+[![GitHub version](https://badge.fury.io/gh/crewstyle%2Fsmylies.svg)](https://badge.fury.io/gh/crewstyle%2Fsmylies)  
 
 
-## 1) What is this all about?
+## Package manager
 
-[Smilies](https://github.com/crewstyle/smilies) is a very light jQuery plugin to make clickable smilies with text transformation.  
-
-
-## 2) Install
-
-If you use [Bower.io](http://bower.io), you can download *Tabloïd* and use it with:
-
+````javascript
+//bower
+bower install --save yohoho.smylies
 ````
-bower install --save smilies
+
+````javascript
+//npm
+npm install yohoho.smylies
 ````
 
 
-## 3) How to use it
-
-It's pretty simple to use the *Smilies* jQuery package. It's a two-steps install.  
-In your HTML:
+## Install
 
 ````html
+<!-- In your <body> HTML tag -->
+
 <textarea id="to-transform"></textarea>
-<div id="smiles">
+<div id="smiley">
     <a href="#" data-code="-_-" title="-_-">Ambivalent</a>
     <a href="#" data-code=":angel:" title=":angel:">Angel</a>
     <a href="#" data-code=":angry:" title=":angry:">Angry</a>
@@ -41,30 +32,32 @@ In your HTML:
 </div>
 ````
 
-In your Javascript:
 ````javascript
-$(document).ready({
-    $('#to-transform').smilies({
-        smiles: '#smiles'
-    });
+//in your main JS file
+$('#to-transform').smylies({
+    smiley: '#smiley'
 });
 ````
 
 
-## 4) That's all folkes!
+## Settings
 
-Now let's have fun :)
+Option | Type | Default | Description
+------ | ---- | ------- | -----------
+smiley | string | '#smiley' | Node element containing all smilies links with their `data-code` attributes
 
 
-## 5) Authors and Copyright
+## Dependencies
 
-**Achraf Chouk**
+jQuery 2.1.4
+
+
+## Authors and Copyright
+
+Made with ♥ by **[Achraf Chouk](http://github.com/crewstyle "Achraf Chouk")**
 
 + http://fr.linkedin.com/in/achrafchouk/
 + http://twitter.com/crewstyle
 + http://github.com/crewstyle
 
-Please, read [LICENSE](https://github.com/crewstyle/smilies/blob/master/LICENSE "LICENSE") for more details.
-
-Copyright 20xx [Achraf Chouk](http://github.com/crewstyle "Achraf Chouk").  
-Brewed by Achraf Chouk, served by [Take a tea](http://www.takeatea.com "Take a tea") ;)
+Please, read [LICENSE](https://github.com/crewstyle/smylies/blob/master/LICENSE "LICENSE") for more details.

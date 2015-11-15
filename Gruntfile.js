@@ -1,7 +1,7 @@
 /*! *//*!
  * ~~~~~~~~~~~~~~~~~~
- * Smilies - ∑µî¬îêÒ
- * https://github.com/crewstyle/smilies
+ * Smylies - ∑µÚ¬îêÒ
+ * https://github.com/crewstyle/smylies
  * ~~~~~~~~~~~~~~~~~~
  * Copyright 20xx Achraf Chouk (http://github.com/crewstyle)
  */
@@ -12,7 +12,7 @@ module.exports = function (grunt){
     grunt.initConfig({
         //project settings
         yohoho: {
-            name: 'smilies',
+            name: 'smylies',
             path: {
                 bow: 'bower_components',
                 src: '.',
