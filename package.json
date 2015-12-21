@@ -1,6 +1,6 @@
 {
   "name": "yohoho.smylies",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A text transform into smiley jQuery plugin",
   "main": "dist/smylies.min.js",
   "scripts": {

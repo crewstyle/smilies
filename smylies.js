@@ -134,7 +134,7 @@
         destroy: function (){}
     };
 
-    $.fn.smilies = function (method){
+    $.fn.smylies = function (method){
         if (methods[method]) {
             return methods[method].apply(this, Array.prototype.slice.call(arguments, 1));
         }
