@@ -5,6 +5,7 @@ _a text transform into smiley very light jQuery plugin_
 [![GitHub version](https://badge.fury.io/gh/crewstyle%2Fsmylies.svg)](https://badge.fury.io/gh/crewstyle%2Fsmylies)  
 
 
+## [Demo page](https://cdn.rawgit.com/crewstyle/smylies/80836ed0d3d789355362194624fb4bfb57440ca3/demo/index.html)
 ## Package manager
 
 ````javascript
